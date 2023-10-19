@@ -100,7 +100,7 @@ def delete_files_in_all_folders():
         print("No folders found.")
 
 URL = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize'
-client_id = "4f8052f4-bf4c-4d7b-b82d-04ac468398aa"
+client_id = "CLIENT_ID"
 permissions = ['files.readwrite']
 response_type = 'token'
 redirect_uri = 'https://localhost:8000/'
